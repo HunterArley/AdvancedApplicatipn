@@ -5,14 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.hunterarley.advancedapplication.MainActivity">
+    tools:context="com.example.hunterarley.advancedapplication.Test1Activity">
 
-    <Button
-        android:id="@+id/btn1"
+    <!--定义自动补全控件-->
+    <AutoCompleteTextView
+        android:id="@+id/actv"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="示例1"
-        android:padding="3dp"
-        />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
