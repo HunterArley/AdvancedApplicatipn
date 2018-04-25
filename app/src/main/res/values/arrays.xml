@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="System">
+        <item>Windows</item>
+        <item>Linux</item>
+        <item>Unix</item>
+        <item>Google Cloud</item>
+        <item>Other</item>
+    </string-array>
+</resources>

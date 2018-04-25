@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private Button btn1,btn2;
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    private Button btn1, btn2, btn3;
 
 
     @Override
@@ -16,11 +16,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findView();
     }
-    private void findView(){
+
+    private void findView() {
         btn1 = (Button) findViewById(R.id.btn1);
         btn1.setOnClickListener(this);
         btn2 = (Button) findViewById(R.id.btn2);
         btn2.setOnClickListener(this);
+        btn3 = (Button) findViewById(R.id.btn3);
+        btn3.setOnClickListener(this);
     }
 
     @Override
@@ -33,6 +36,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn2:
                 Intent intent2 = new Intent(this, Test2Activity.class);
                 startActivity(intent2);
+                break;
+            case R.id.btn3:
+                Intent intent3 = new Intent(this, Test3Activity.class);
+                startActivity(intent3);
                 break;
         }
     }
