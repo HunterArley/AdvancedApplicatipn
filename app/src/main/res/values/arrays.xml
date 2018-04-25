@@ -7,4 +7,16 @@
         <item>Google Cloud</item>
         <item>Other</item>
     </string-array>
+
+    <string-array name="seat">
+        <item>A1 满</item>
+        <item>A2 满</item>
+        <item>A3 满</item>
+        <item>B1 空</item>
+        <item>B2 空</item>
+        <item>B3 满</item>
+        <item>C1 空</item>
+        <item>C2 满</item>
+        <item>C3 空</item>
+    </string-array>
 </resources>
